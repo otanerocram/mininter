@@ -10,13 +10,13 @@ header("Pragma: no-cache");
 error_reporting(E_ALL);
 date_default_timezone_set('America/Lima');
 
-// require('config.php');
 $dbHost     = "localhost";
 $dbPort     = 3306;
 $dbName     = "dbname";
 $dbUser     = "gts";
 $dbPass     = "password";
 $gpsProvider = "AguilaControl";
+require('config.php');
 
 $ws_endpoint     = "https://seguridadciudadana.mininter.gob.pe/retransmisionGPS/ubicacionGPS";
 
